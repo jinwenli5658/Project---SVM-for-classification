@@ -59,5 +59,6 @@ The [Breast Cancer](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wiscon
 
 ## Optimizing the SVM models
 - Grid Search
+![plot](https://user-images.githubusercontent.com/81390746/284030801-2966f5ee-e1fd-4ea6-9bf4-bdabb1f73735.png)
 
 ## Create SVM Pipeline
