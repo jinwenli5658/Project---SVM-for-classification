@@ -1,4 +1,4 @@
-# Project-SVM-for-classification
+# Project SVM for classification
 
 ## Problem
 Apply SVM to identify if a cancer tumor is malignant or benign.
