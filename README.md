@@ -58,6 +58,7 @@ Ten real-valued features are computed for each cell nucleus:
 - Support Vectors: These are the points that are closest to the hyperplane.
 - Margin: it is the distance between the hyperplane and the observations closest to the hyperplane.
 
+
 ![plot](https://user-images.githubusercontent.com/81390746/284029389-fc91640e-2d26-4714-a3e6-1987ef1d71ca.png)
 
 
