@@ -57,7 +57,8 @@ Ten real-valued features are computed for each cell nucleus:
 - SVM works best when the dataset is small and complex.
 - Support Vectors: These are the points that are closest to the hyperplane.
 - Margin: it is the distance between the hyperplane and the observations closest to the hyperplane.
-  https://github.com/jinwenli5658/Project-SVM-for-classification/issues/1 
+
+![plot](https://github.com/jinwenli5658/Project-SVM-for-classification/issues/1)
 
 
 
