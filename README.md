@@ -41,17 +41,28 @@ Ten real-valued features are computed for each cell nucleus:
 
 # Takeaways
 ## Exploratory Data Analysis and visualization
-- Histogram <br />
+- Histogram
 - Density 
 - Box and Whisker Plot
 - Correlation Matrix
 - Scatter Plot
 
-## Visualizing the data
-- distplot combines the matplotlib.hist function with seaborn kdeplot() <br />
-  * KDE Plot represents the Kernel Density Estimate. 
-  * KDE is used for visualizing the Probability Density of a continuous variable.
-  * KDE demonstrates the probability density at different values in a continuous variable.
+## Data Preprocessing
+- Y: relabeling
+- X: rescaling and dimension reduction (PCA)
+- Elbow Method: keep first three PCA
+
+## Support Vector Machine Mode
+- It is a supervised machine learning problem where we try to find a hyperplane that best separates the two classes.
+- SVM works best when the dataset is small and complex.
+- Support Vectors: These are the points that are closest to the hyperplane.
+- Margin: it is the distance between the hyperplane and the observations closest to the hyperplane.
+- 
+
+
+
+
+
 
 ## Scaling the data
 
