@@ -8,13 +8,9 @@ The [Breast Cancer](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wiscon
 * The first two columns in the dataset store the unique ID numbers of the samples and the corresponding diagnosis (M=malignant, B=benign), respectively. 
 * The columns 3-32 contain 30 real-value features that have been computed from digitized images of the cell nuclei, which can be used to build a model to predict whether a tumor is benign or malignant.
   
-
 1) ID number
 2) Diagnosis (M = malignant, B = benign)
-3-32)
-
-Ten real-valued features are computed for each cell nucleus:
-
+(3-32) The real-valued features are computed for each cell nucleus:
 	a) radius (mean of distances from center to points on the perimeter)
 	b) texture (standard deviation of gray-scale values)
 	c) perimeter
@@ -26,7 +22,6 @@ Ten real-valued features are computed for each cell nucleus:
 	i) symmetry 
 	j) fractal dimension ("coastline approximation" - 1)
 
- 
 ## Tasks:
 (1) Import libraries and load data <br />
 (2) Exploratory Data Analysis <br />
@@ -34,10 +29,8 @@ Ten real-valued features are computed for each cell nucleus:
 (4) Data Preprosessing and learn how to obtain the optimal number of clusters using the elbow method <br />
 (5) Understand the theory and intuition behind Support Vector Machine algorithm <br />
 (6) Model Evaluation <br />
-(7) Optimizing the SVM Classifier¶ <br />
+(7) Optimizing the SVM Classifier <br />
 (8) Automate the ML process using pipelines <br />
-
-
 
 # Takeaways
 ## Exploratory Data Analysis and visualization
@@ -60,8 +53,6 @@ Ten real-valued features are computed for each cell nucleus:
 - The best hyperplane is that plane that has the maximum distance from both the classes.
 ![plot](https://user-images.githubusercontent.com/81390746/284029389-fc91640e-2d26-4714-a3e6-1987ef1d71ca.png)
 
-## Model Prediction
-
 ## Model Evaluation 
 - Confusion Matrix
 - Receiver Operating Characteristic curve (ROC), AUC
@@ -70,9 +61,3 @@ Ten real-valued features are computed for each cell nucleus:
 - Grid Search
 
 ## Create SVM Pipeline
-
-
-
-
-
-
